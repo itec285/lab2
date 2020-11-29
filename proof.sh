@@ -46,9 +46,9 @@ cd > /dev/null
 echo
 ls -al proof.txt
 echo
-echo "${red}red text ${green}green text${reset}"
-echo DONE DONE DONE DONE DONE.  
-echo Use vi, nano, or mousepad to review your proof file. 
-echo If satisfied with the file, email it to Mike: mlong@mhc.ab.ca
+#echo "${red}red text ${green}green text${reset}"
+echo "${red}DONE DONE DONE DONE DONE.${reset}"  
+echo "${green}Use vi, nano, or mousepad to review your proof file.${reset}" 
+echo "${green}If satisfied with the file, email it to Mike: mlong@mhc.ab.ca${reset}"
 echo
 echo
