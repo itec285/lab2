@@ -4,6 +4,7 @@
 #Color Codes for Color output later
 red=`tput setaf 1`
 green=`tput setaf 2`
+blink=`tput blink`
 reset=`tput sgr0`
 
 
@@ -48,7 +49,7 @@ ls -al proof.txt
 echo
 #echo "${red}red text ${green}green text${reset}"
 echo "${red}DONE DONE DONE DONE DONE.${reset}"  
-echo "${green}Use vi, nano, or mousepad to review your proof file.${reset}" 
+echo "${green}${blink}Use vi, nano, or mousepad to review your proof.txt file.${reset}" 
 echo "${green}If satisfied with the file, email it to Mike: mlong@mhc.ab.ca${reset}"
 echo
 echo
