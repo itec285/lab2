@@ -27,18 +27,18 @@ printf '\n'
 /usr/games/sl #CHOO CHOO
 
 cd > /dev/null
-cat /etc/hostname > proof
-echo -------------Ifconfig------------ >>proof
+cat /etc/hostname > proof.txt
+echo -------------Ifconfig------------ >>proof.txt
 ifconfig >> proof
-echo -------------History------------- >>proof
+echo -------------History------------- >>proof.txt
 history >> proof 
-echo -------------Home Dir------------ >>proof
+echo -------------Home Dir------------ >>proof.txt
 ls -l >> proof
-echo -------------About Me------------ >>proof
-cat AboutMe >> proof
+echo -------------About Me------------ >>proof.txt
+cat AboutMe >> proof.txt
 cd > /dev/null
 echo
-ls -al proof
+ls -al proof.txt
 echo
 echo DONE DONE DONE DONE DONE.  
 echo Use vi, nano, or leafpad to review your proof file. 
