@@ -41,7 +41,7 @@ echo
 ls -al proof.txt
 echo
 echo DONE DONE DONE DONE DONE.  
-echo Use vi, nano, or leafpad to review your proof file. 
-echo If satisfied with the file, email it to Mike.
+echo Use vi, nano, or mousepad to review your proof file. 
+echo If satisfied with the file, email it to Mike: mlong@mhc.ab.ca
 echo
 echo
