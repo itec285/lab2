@@ -1,12 +1,18 @@
 #!/bin/bash -i	
 #start in interative mode so history command will work..
 
+#Color Codes for Color output later
+red=`tput setaf 1`
+green=`tput setaf 2`
+reset=`tput sgr0`
+
+
 spinner() {
     local i sp n
     sp='/-\|'
     n=${#sp}
     printf ' '
-    while sleep 0.1; do
+    while sleep 4; do
         printf "%s\b" "${sp:i++%n:1}"
     done
 }
@@ -40,6 +46,7 @@ cd > /dev/null
 echo
 ls -al proof.txt
 echo
+echo "${red}red text ${green}green text${reset}"
 echo DONE DONE DONE DONE DONE.  
 echo Use vi, nano, or mousepad to review your proof file. 
 echo If satisfied with the file, email it to Mike: mlong@mhc.ab.ca
