@@ -29,11 +29,11 @@ printf '\n'
 cd > /dev/null
 cat /etc/hostname > proof.txt
 echo -------------Ifconfig------------ >>proof.txt
-ifconfig >> proof
+ifconfig >> proof.txt
 echo -------------History------------- >>proof.txt
-history >> proof 
+history >> proof.txt 
 echo -------------Home Dir------------ >>proof.txt
-ls -l >> proof
+ls -l >> proof.txt
 echo -------------About Me------------ >>proof.txt
 cat AboutMe >> proof.txt
 cd > /dev/null
