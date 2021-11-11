@@ -48,10 +48,11 @@ cat AboutMe >> proof.txt
 cd > /dev/null
 
 clear
+echo "${red}DONE - the following proof file has been created in your home directory.${reset}"  
+echo
 ls -al proof.txt
 echo
 #echo "${red}red text ${green}green text${reset}"
-echo "${red}DONE DONE DONE DONE DONE.${reset}"  
 echo "${green}${blink}Use vi, nano, or mousepad to review your proof.txt file.${reset}" 
 echo "${green}If satisfied with the file, email it to Mike: mlong@mhc.ab.ca${reset}"
 echo
