@@ -13,7 +13,7 @@ spinner() {
     sp='/-\|'
     n=${#sp}
     printf ' '
-    while sleep 4; do
+    while sleep 1; do
         printf "%s\b" "${sp:i++%n:1}"
     done
 }
@@ -25,11 +25,13 @@ echo
 printf 'Doing important work '
 spinner &
 
-#sleep 6  # sleeping for 6 seconds is important work
-apt-get install -qq -y sl > /dev/null
+sleep 10  # sleeping for 10 seconds is important work
 
 kill "$!" >/dev/null # kill the spinner
 printf '\n'
+echo "${red}Enter your password when prompted.${reset}"  
+echo
+sudo apt-get install -qq -y sl > /dev/null
 
 /usr/games/sl #CHOO CHOO
 
