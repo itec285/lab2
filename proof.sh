@@ -40,7 +40,7 @@ cat /etc/hostname > proof.txt
 echo -------------Ifconfig------------ >>proof.txt
 ifconfig >> proof.txt
 echo -------------History------------- >>proof.txt
-history >> proof.txt 
+cat history.txt >> proof.txt 
 echo -------------Home Dir------------ >>proof.txt
 ls -l >> proof.txt
 echo -------------About Me------------ >>proof.txt
