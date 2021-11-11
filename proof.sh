@@ -46,7 +46,8 @@ ls -l >> proof.txt
 echo -------------About Me------------ >>proof.txt
 cat AboutMe >> proof.txt
 cd > /dev/null
-echo
+
+clear
 ls -al proof.txt
 echo
 #echo "${red}red text ${green}green text${reset}"
