@@ -54,6 +54,7 @@ ls -al proof.txt
 echo
 #echo "${red}red text ${green}green text${reset}"
 echo "${green}${blink}Use vi, nano, or mousepad to review your proof.txt file.${reset}" 
-echo "${green}If satisfied with the file, email it to Mike: mlong@mhc.ab.ca${reset}"
+echo "${green}The file should contain your IP information, the history file you created, a list of files, and the contents of AboutMe. ${reset}"
+echo "${green}If satisfied with the file, submit to Mike using the Blackboard assignment${reset}"
 echo
 echo
